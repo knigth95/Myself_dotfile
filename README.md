@@ -26,4 +26,10 @@ chmod a+x ./install.sh && ./install.sh all
 chmod a+x ./install.sh && ./install.sh vim
 ```
 
+### 相关指令
+##### tmux
+- 水平分割窗口: 先按```ctrl+q```再按```\```
+- 垂直分割窗口: 先按```ctrl+q```再按```-```
+- 关闭当前窗口: 先按```ctrl+q```再按```x```
+- 选择窗口: 先按```ctrl+q```再按方向键
 
