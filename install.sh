@@ -40,9 +40,9 @@ main() {
 	elif [ "$1" == "conda" ]; then
 		files=("~/.condarc")
 	elif [ "$1" == "zsh" ]; then
-		curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
+		#curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
     files=("~/.zshrc" "~/.zimrc")
-    zimfw install
+    #zimfw install
 	elif [ "$1" == "tmux" ]; then
 		files=("~/.tmux.conf")
 	elif [ "$1" == "nvim" ]; then
