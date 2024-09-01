@@ -9,7 +9,7 @@ Linux 下的配置文件
 - zsh（使用 zim）
 - tmux（无插件）
 - ranger
-
+- 新增clash全局扩展脚本配置
 **注意**：如果使用 conda，请在 `.zshrc` 中将{/home/knight/}设为合适的值,原有的配置文件会被移到 `backup` 中，如果原配置就是软连接则将其删除
 
 ## 安装
@@ -25,6 +25,8 @@ chmod a+x ./install.sh && ./install.sh all
 ```bash
 chmod a+x ./install.sh && ./install.sh vim
 ```
+### clash全局扩展脚本配置
+- 在clash-verge中将配置文件导入
 
 ### 相关指令
 ##### tmux
